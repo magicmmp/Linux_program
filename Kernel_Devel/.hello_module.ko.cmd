@@ -1,0 +1,1 @@
+cmd_/home/pss/Linux_program/Kernel_Devel/hello_module.ko := ld -r -m elf_x86_64 -T /usr/src/kernels/3.10.0-229.el7.x86_64/scripts/module-common.lds --build-id  -o /home/pss/Linux_program/Kernel_Devel/hello_module.ko /home/pss/Linux_program/Kernel_Devel/hello_module.o /home/pss/Linux_program/Kernel_Devel/hello_module.mod.o
